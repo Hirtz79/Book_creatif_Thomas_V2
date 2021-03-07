@@ -1,0 +1,286 @@
+html {
+    margin: 2rem;
+}
+
+
+/* Alignement et style MENU */
+.menu {
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu_item {
+    margin-right: 2rem;
+    color: grey;
+    transition-property: all;
+    transition: 0.5s;
+    border-bottom: solid 1px transparent;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+
+.menu_item:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px black;
+}
+
+.portfolio {
+    padding: 10rem;
+    margin-top: 2rem;
+    display: block;
+    position : relative;
+}
+.portfolio::after{
+    content : "";
+    background-image: url("../image/social-media-5187243_1920.png");
+    opacity: 0.5;
+    top: 0;
+    bottom : 0;
+    left: 0;
+    right : 0;
+    background-position: center;
+    background-size : 62%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.debut_center {
+    color: white;
+    text-align: center;
+}
+
+.color_white {
+    color: white;
+    opacity: 1;
+}
+
+.h1_portfolio {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color : #CD6155 ;
+}
+
+.h4_nom {
+    margin-bottom: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 6rem;
+}
+
+.presentation_moi {
+    width: 100%;
+    padding: 1rem;
+}
+
+.img_droite {
+    float: right;
+    width: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    transition : 1s;
+}
+.img_droite:hover{
+    transform: scale(1.1);
+}
+
+.margin-bot {
+    margin-bottom: 8rem;
+}
+
+.presentation_projet {
+    padding: 1rem;
+    width: 100%;
+    margin-top: 16rem;
+}
+
+.float-txt{
+    text-align: right;
+    margin : 2rem;
+}
+
+
+.float-btn{
+    float: right;
+    margin-right: 2rem;
+}
+
+.img_gauche {
+    float: left;
+    width: 60%;
+    transition : 1s;
+}
+.img_gauche:hover{
+    filter: blur(1px);
+}
+
+.section{
+    margin-top: 15rem;
+}
+
+.CTA{
+    text-align: center;
+}
+
+.CTA h1{
+    font-size: 50px;
+}
+
+.CTA a{
+    padding : 1rem;
+}
+
+
+.foot{
+    bottom : 0;
+    margin : 0;
+    margin-top : 5rem;
+}
+
+
+/* Animation */
+
+/*
+.animation{
+    animation : slide 2s forwards
+}
+
+@keyframes slide{
+    0%{
+        transform: translateY(80px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+*/
+.section {
+    padding : 1rem;
+   
+}
+
+
+/* LOAD */
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #1a1a1a;
+    ;
+    height: 100%;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+
+.loader-container.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader {
+    width: 120px;
+    height: 120px;
+    border: 16px solid white;
+    border-bottom: 16px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+    animation: loader 0.8s linear infinite;
+}
+
+.loaderr {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #BCAFAF;
+    border-bottom: 20px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+    animation: loaderr 0.8s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes loaderr {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+
+
+.reveal {
+    opacity : 0;
+    transition-delay : .1s;
+    transform: translateY(30px);
+}
+
+.for-reveal{
+    transition : 1s;
+}
+
+.btn{
+    transition : 0.5s;
+}
+.btn:hover{
+    letter-spacing: 3px;
+}
+
+.vertical {
+    border-left: 2px solid #000;
+    display: inline-block;
+    height: 130px;
+    margin-left : 33.5rem;
+
+}
+
+.first {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.text-parcours{
+    text-align: center;
+    margin-top : 2rem;
+    margin-bottom : 2rem;
+}
+
+.parcours h1{
+    margin-top : 3rem;
+}
+
+.espace{
+    margin-top : 5rem;
+}
+
