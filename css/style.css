@@ -1,5 +1,6 @@
 html {
     margin: 2rem;
+    padding : 0;
 }
 
 
@@ -208,7 +209,7 @@ li {
 .loaderr {
     width: 200px;
     height: 200px;
-    border: 20px solid #BCAFAF;
+    border: 20px solid darkgoldenrod;
     border-bottom: 20px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     position: absolute;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mes créations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul class="menu">
+                <li><a class="menu_item" href="index.html">ACCUEIL</a></li>
+                <li><a class="menu_item" href="parcours.html"> MON PARCOURS</a></li>
+                <li><a class="menu_item" href="creation.html"> MES CREATIONS</a></li>
+                <li><a class="menu_item" href="#"> AUTRE PROJET</a></li>
+                <li><a class="menu_item" href="#"> CONTACT </a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Mes créations</h1>
+        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Indicateurs -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- Carrousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="2000">
+                    <img  src="image/V3.png" alt="Carrousel slide 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img  src="image/muscu.png" alt="Carrousel slide 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="image/Accueil.png" alt="Carrousel slide 3" class="d-block w-100">
+                </div>
+            </div>
+
+            <!-- Contrôles -->
+            <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Précédent</span>
+            </a>
+            <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Suivant</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
