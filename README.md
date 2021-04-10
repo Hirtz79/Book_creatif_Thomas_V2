@@ -5,4 +5,4 @@ Responsive non fonctionnel pour le moment.
 
 Le visuel va être changer.
 
-@Copyrigth
+@Copyrigth Hirtz79
